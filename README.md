@@ -7,6 +7,11 @@ and evaluation — lives in a single notebook:
 
 **[`brain-tumor-segmentation-using-u-net.ipynb`](./brain-tumor-segmentation-using-u-net.ipynb)**
 
+> Based on the original Kaggle notebook
+> **["Brain Tumor Segmentation using U-Net"](https://www.kaggle.com/code/zeeshanlatif/brain-tumor-segmentation-using-u-net)**
+> by **Zeeshan Latif**. This repository is a cleaned-up and refactored version —
+> see [Notes on This Version](#notes-on-this-version).
+
 <!-- Optional: drop a prediction screenshot here -->
 <!-- ![Prediction example](docs/prediction_example.png) -->
 
@@ -110,7 +115,8 @@ The notebook writes a few artifacts at runtime:
 
 ## Notes on This Version
 
-This is a cleaned-up version of the original Kaggle notebook:
+This is a cleaned-up version of
+[Zeeshan Latif's original Kaggle notebook](https://www.kaggle.com/code/zeeshanlatif/brain-tumor-segmentation-using-u-net):
 
 - Centralized all file-path construction behind a single `imgPath()` helper.
 - Removed dead and duplicated code (an unused/broken data loader and a redundant
@@ -120,6 +126,8 @@ This is a cleaned-up version of the original Kaggle notebook:
 
 ## Acknowledgements
 
+- **Original notebook:** [*Brain Tumor Segmentation using U-Net*](https://www.kaggle.com/code/zeeshanlatif/brain-tumor-segmentation-using-u-net)
+  by **Zeeshan Latif** — this project builds directly on his work.
 - **Dataset:** [BraTS 2020](https://www.med.upenn.edu/cbica/brats2020/data.html),
   mirrored on Kaggle by [awsaf49](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation).
 - **Architecture:** U-Net (Ronneberger et al., 2015), *“U-Net: Convolutional
